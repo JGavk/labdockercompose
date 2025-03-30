@@ -4,9 +4,7 @@ services:
     ports:
       - "8080:80"
 
-  service1:
-    build: ./service1
+  service7:
+    build: ./service7
     ports:
-      - "5001:5001"
-
-
+      - "5007:5007"
