@@ -9,4 +9,7 @@ services:
     ports:
       - "5001:5001"
 
-
+  service-camilo:
+    build: ./serviceCam
+    ports:
+      - "5007:5007"
